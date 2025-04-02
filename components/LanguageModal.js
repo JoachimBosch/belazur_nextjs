@@ -2,6 +2,10 @@
 
 import { useEffect, useContext, useState } from "react";
 import MyContext from "@/app/context-provider";
+import Image from "next/image";
+import fr from "../public/fr.png";
+import en from "../public/en.png";
+import nl from "../public/nl.png";
 
 export default function LanguageModal() {
     const { language, setLanguage, text } = useContext(MyContext);
@@ -32,11 +36,13 @@ export default function LanguageModal() {
                             localStorage.setItem("selectedLanguage", "french");
                         }}
                     >
-                        <img
-                            src="/media/img/fr.png"
+                        <Image
+                            src={fr}
                             alt="Français"
                             title="Français"
                             className="h-12"
+                            height={50}
+                            width={60}
                         />
                     </button>
                     <button
@@ -45,11 +51,13 @@ export default function LanguageModal() {
                             localStorage.setItem("selectedLanguage", "english");
                         }}
                     >
-                        <img
-                            src="/media/img/en.png"
+                        <Image
+                            src={en}
                             alt="English"
                             title="English"
                             className="h-12"
+                            height={50}
+                            width={60}
                         />
                     </button>
                     <button
@@ -58,11 +66,13 @@ export default function LanguageModal() {
                             localStorage.setItem("selectedLanguage", "dutch");
                         }}
                     >
-                        <img
-                            src="/media/img/nl.png"
+                        <Image
+                            src={nl}
                             alt="Nederlands"
                             title="Nederlands"
                             className="h-12"
+                            height={50}
+                            width={60}
                         />
                     </button>
                 </div>

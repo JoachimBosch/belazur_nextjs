@@ -372,6 +372,14 @@ label {
     border-style: none;
 }
 
+.cookieModal {
+    color: #125e8a;
+}
+
+.cookieChecked {
+    background-color: #125e8a;
+}
+
 @media (max-width: 1023px) {
     html,
     body {

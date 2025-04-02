@@ -93,7 +93,7 @@ export default function CookieBanner() {
                         className="sr-only"
                         disabled
                     />
-                    <div className="block w-10 h-6 bg-belazurblue rounded-full cursor-not-allowed"></div>
+                    <div className="block w-10 h-6 cookieChecked rounded-full cursor-not-allowed"></div>
                     <div className="dot absolute right-1 top-1 w-4 h-4 bg-white rounded-full transition"></div>
                 </div>
             </div>
@@ -106,7 +106,9 @@ export default function CookieBanner() {
                         checked={allowAnalytics}
                         onChange={() => setAllowAnalytics(!allowAnalytics)}
                     />
-                    <div className="w-10 h-6 bg-gray-300 rounded-full peer-checked:bg-belazurblue"></div>
+                    <div className={`w-10 h-6 bg-gray-300 rounded-full ${
+                            allowAnalytics ? "cookieChecked" : ""
+                        }`}></div>
                     <div
                         className={`dot absolute left-1 top-1 w-4 h-4 bg-white rounded-full transition ${
                             allowAnalytics ? "translate-x-4" : ""
@@ -114,7 +116,7 @@ export default function CookieBanner() {
                     ></div>
                 </label>
             </div>
-            <div className="flex justify-center gap-4 mt-4" style={{}}>
+            <div className="flex justify-center gap-4 mt-4">
                 <button
                     onClick={handleAcceptAll}
                     className="px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 transition"
