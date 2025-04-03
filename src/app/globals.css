@@ -71,12 +71,14 @@ button {
     margin-bottom: 100px;
     padding: 20px 60px;
     width: auto;
+    border-style: none;
 }
 
 .button-home:hover,
 .button-services:hover {
     color: white;
     background-color: #125e8a;
+    border-style: none;
 }
 
 .button-language {
@@ -101,11 +103,13 @@ button {
     width: 100%;
     background-color: white;
     color: #125e8a;
+    border-style: none;
 }
 
 .button-contact:hover {
     background-color: #125e8a;
     color: white;
+    border-style: none;
 }
 
 .intro {

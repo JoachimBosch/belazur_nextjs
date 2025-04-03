@@ -948,8 +948,8 @@ export const MyProvider = ({ children }) => {
     useEffect(() => {
         if (screenWidth <= 1023) {
             setText(_MOBILEtext);
-            setLogoWidth("40px");
-            setLogoHeight("40px");
+            setLogoWidth("50px");
+            setLogoHeight("50px");
         } else {
             setText(_DESKTOPtext);
             setLogoWidth("80px");

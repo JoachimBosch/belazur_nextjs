@@ -45,6 +45,7 @@ export default function Navbar() {
                 <div className="logo flex items-center">
                     <a href="/" className="-m-1.5 p-1.5">
                         <span className="sr-only">Bel'Azur Coding</span>
+
                         <Image
                             src={Azur}
                             alt="Bel'Azur Coding Logo"
