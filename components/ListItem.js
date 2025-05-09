@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function ListItem(text) {
+export default function ListItem({ text }) {
     return (
         <li className="flex text-base text-body-color dark:text-dark-6">
             <span className="mr-2.5 mt-0.5 text-primary">
