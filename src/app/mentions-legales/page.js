@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function MentionsLegales() {
     return (
         <div
@@ -9,9 +11,9 @@ export default function MentionsLegales() {
                 <p>
                     Ces termes et conditions ("Accord") énoncent les termes
                     généraux de votre utilisation du site Web{" "}
-                    <a href="https://www.belazurcoding.com">
+                    <Link href="https://www.belazurcoding.com">
                         belazurcoding.com
-                    </a>{" "}
+                    </Link>{" "}
                     ("Site Web" ou "Service") et de tous ses produits et
                     services connexes (collectivement, "Services"). Cet Accord
                     est légalement contraignant entre vous ("Utilisateur",
@@ -36,45 +38,45 @@ export default function MentionsLegales() {
                     <h3 className="pt-12">Table des matières</h3>
                     <ul className="index">
                         <li>
-                            <a href="#liens-vers-dautres-ressources">
+                            <Link href="#liens-vers-dautres-ressources">
                                 • Liens vers d'autres ressources
-                            </a>
+                            </Link>
                         </li>
                         <li>
-                            <a href="#utilisations-prohib%c3%a9es">
+                            <Link href="#utilisations-prohib%c3%a9es">
                                 • Utilisations prohibées
-                            </a>
+                            </Link>
                         </li>
                         <li>
-                            <a href="#droits-de-propri%c3%a9t%c3%a9-intellectuelle">
+                            <Link href="#droits-de-propri%c3%a9t%c3%a9-intellectuelle">
                                 • Droits de propriété intellectuelle
-                            </a>
+                            </Link>
                         </li>
                         <li>
-                            <a href="#limitation-de-responsabilit%c3%a9">
+                            <Link href="#limitation-de-responsabilit%c3%a9">
                                 • Limitation de responsabilité
-                            </a>
+                            </Link>
                         </li>
                         <li>
-                            <a href="#indemnisation">• Indemnisation</a>
+                            <Link href="#indemnisation">• Indemnisation</Link>
                         </li>
                         <li>
-                            <a href="#r%c3%a8glement-des-litiges">
+                            <Link href="#r%c3%a8glement-des-litiges">
                                 • Règlement des litiges
-                            </a>
+                            </Link>
                         </li>
                         <li>
-                            <a href="#modifications-et-amendements">
+                            <Link href="#modifications-et-amendements">
                                 • Modifications et amendements
-                            </a>
+                            </Link>
                         </li>
                         <li>
-                            <a href="#acceptation-de-ces-termes">
+                            <Link href="#acceptation-de-ces-termes">
                                 • Acceptation de ces termes
-                            </a>
+                            </Link>
                         </li>
                         <li>
-                            <a href="#nous-contacter">• Nous contacter</a>
+                            <Link href="#nous-contacter">• Nous contacter</Link>
                         </li>
                     </ul>
                 </div>
@@ -281,13 +283,13 @@ export default function MentionsLegales() {
                     <br />
                     N° de TVA intracommunautaire : FR00 982 898 959
                     <br />
-                    <a href="&#109;&#097;&#105;&#108;&#116;&#111;&#058;inf&#111;&#64;b&#101;l&#97;z&#117;r&#99;&#111;d&#105;ng&#46;c&#111;&#109;">
+                    <Link href="&#109;&#097;&#105;&#108;&#116;&#111;&#058;inf&#111;&#64;b&#101;l&#97;z&#117;r&#99;&#111;d&#105;ng&#46;c&#111;&#109;">
                         &#105;nf&#111;&#64;&#98;&#101;laz&#117;&#114;c&#111;&#100;i&#110;g.&#99;om
-                    </a>
+                    </Link>
                     <br />
-                    <a href="https://belazurcoding.com/contact">
+                    <Link href="https://belazurcoding.com/contact">
                         https://belazurcoding.com/contact
-                    </a>
+                    </Link>
                 </p>
                 <p>Directeur de la publication : Joachim Bosch </p>
                 <p className="pt-4">

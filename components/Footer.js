@@ -6,7 +6,7 @@ export default function Footer() {
         <>
             <div className="footer">
                 <div className="reference text-center">
-                    <p>Bel'Azur Coding © 2025</p>
+                    <p>Bel&apos;Azur Coding © 2025</p>
                     <div>
                         <Link
                             className="hover:underline"

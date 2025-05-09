@@ -13,9 +13,9 @@ export default function PrivacyPolicy() {
                     d'informations que nous pouvons collecter auprès de vous ou
                     que vous pouvez fournir ("Informations personnelles") sur le
                     site{" "}
-                    <a href="https://www.belazurcoding.com">
+                    <Link href="https://www.belazurcoding.com">
                         belazurcoding.com
-                    </a>{" "}
+                    </Link>{" "}
                     ("Site Web" ou "Service") et sur l'ensemble de ses produits
                     et services associés (collectivement, "Services"), ainsi que
                     nos pratiques de collecte, d'utilisation, de conservation,
@@ -48,106 +48,106 @@ export default function PrivacyPolicy() {
                     <h3 className="pt-12">Table des matières</h3>
                     <ul className="index">
                         <li>
-                            <a href="#collecte-automatique-dinformations">
+                            <Link href="#collecte-automatique-dinformations">
                                 • Collecte automatique d'informations
-                            </a>
+                            </Link>
                         </li>
                         <li>
-                            <a href="#collecte-dinformations-personnelles">
+                            <Link href="#collecte-dinformations-personnelles">
                                 • Collecte d'informations personnelles
-                            </a>
+                            </Link>
                         </li>
                         <li>
-                            <a href="#utilisation-et-traitement-des-informations-collect%c3%a9es">
+                            <Link href="#utilisation-et-traitement-des-informations-collect%c3%a9es">
                                 • Utilisation et traitement des informations
                                 collectées
-                            </a>
+                            </Link>
                         </li>
                         <li>
-                            <a href="#traitement-des-paiements">
+                            <Link href="#traitement-des-paiements">
                                 • Traitement des paiements
-                            </a>
+                            </Link>
                         </li>
                         <li>
-                            <a href="#divulgation-dinformations">
+                            <Link href="#divulgation-dinformations">
                                 • Divulgation d'informations
-                            </a>
+                            </Link>
                         </li>
                         <li>
-                            <a href="#conservation-des-informations">
+                            <Link href="#conservation-des-informations">
                                 • Conservation des informations
-                            </a>
+                            </Link>
                         </li>
                         <li>
-                            <a href="#transfert-dinformations">
+                            <Link href="#transfert-dinformations">
                                 • Transfert d'informations
-                            </a>
+                            </Link>
                         </li>
                         <li>
-                            <a href="#avis-sp%c3%a9cifique-par-r%c3%a9gion">
+                            <Link href="#avis-sp%c3%a9cifique-par-r%c3%a9gion">
                                 • Avis spécifique par région
-                            </a>
+                            </Link>
                         </li>
                         <li>
-                            <a href="#comment-exercer-vos-droits">
+                            <Link href="#comment-exercer-vos-droits">
                                 • Comment exercer vos droits
-                            </a>
+                            </Link>
                         </li>
                         <li>
-                            <a href="#cookies">• Cookies</a>
+                            <Link href="#cookies">• Cookies</Link>
                         </li>
                         <li>
-                            <a href="#analyses-de-donn%c3%a9es">
+                            <Link href="#analyses-de-donn%c3%a9es">
                                 • Analyses de données
-                            </a>
+                            </Link>
                         </li>
                         <li>
-                            <a href="#vie-priv%c3%a9e-des-enfants">
+                            <Link href="#vie-priv%c3%a9e-des-enfants">
                                 • Vie privée des enfants
-                            </a>
+                            </Link>
                         </li>
                         <li>
-                            <a href="#signaux-de-ne-pas-suivre">
+                            <Link href="#signaux-de-ne-pas-suivre">
                                 • Signaux de ne pas suivre
-                            </a>
+                            </Link>
                         </li>
                         <li>
-                            <a href="#fonctionnalit%c3%a9s-des-r%c3%a9seaux-sociaux">
+                            <Link href="#fonctionnalit%c3%a9s-des-r%c3%a9seaux-sociaux">
                                 • Fonctionnalités des réseaux sociaux
-                            </a>
+                            </Link>
                         </li>
                         <li>
-                            <a href="#marketing-par-e-mail">
+                            <Link href="#marketing-par-e-mail">
                                 • Marketing par e-mail
-                            </a>
+                            </Link>
                         </li>
                         <li>
-                            <a href="#liens-vers-dautres-ressources">
+                            <Link href="#liens-vers-dautres-ressources">
                                 • Liens vers d'autres ressources
-                            </a>
+                            </Link>
                         </li>
                         <li>
-                            <a href="#s%c3%a9curit%c3%a9-des-informations">
+                            <Link href="#s%c3%a9curit%c3%a9-des-informations">
                                 • Sécurité des informations
-                            </a>
+                            </Link>
                         </li>
                         <li>
-                            <a href="#violation-des-donn%c3%a9es">
+                            <Link href="#violation-des-donn%c3%a9es">
                                 • Violation des données
-                            </a>
+                            </Link>
                         </li>
                         <li>
-                            <a href="#modifications-et-amendements">
+                            <Link href="#modifications-et-amendements">
                                 • Modifications et amendements
-                            </a>
+                            </Link>
                         </li>
                         <li>
-                            <a href="#acceptation-de-cette-politique">
+                            <Link href="#acceptation-de-cette-politique">
                                 • Acceptation de cette politique
-                            </a>
+                            </Link>
                         </li>
                         <li>
-                            <a href="#nous-contacter">• Nous contacter</a>
+                            <Link href="#nous-contacter">• Nous contacter</Link>
                         </li>
                     </ul>
                 </div>
@@ -665,9 +665,9 @@ export default function PrivacyPolicy() {
                     personnalisation, ainsi qu'à des fins statistiques. Pour
                     plus d'informations sur les cookies que nous collectons et
                     leur finalité, consultez notre{" "}
-                    <a href="https://belazurcoding.com/cookiepolicy">
+                    <Link href="https://belazurcoding.com/cookiepolicy">
                         politique en matière de cookies
-                    </a>
+                    </Link>
                     . Veuillez noter que vous pouvez accepter ou refuser les
                     cookies. La plupart des navigateurs Web acceptent
                     automatiquement les cookies par défaut, mais vous pouvez
@@ -740,9 +740,9 @@ export default function PrivacyPolicy() {
                     description des protocoles de Ne pas suivre pour les
                     navigateurs et les appareils mobiles ou pour en savoir plus
                     sur les choix qui s'offrent à vous, visitez{" "}
-                    <a href="https://www.internetcookies.com">
+                    <Link href="https://www.internetcookies.com">
                         internetcookies.com
-                    </a>
+                    </Link>
                 </p>
                 <h2
                     id="fonctionnalit%c3%a9s-des-r%c3%a9seaux-sociaux"
@@ -901,9 +901,9 @@ export default function PrivacyPolicy() {
                     sujet de données suivant pour soumettre votre demande :
                 </p>
                 <p>
-                    <a href="https://app.websitepolicies.com/dsar/view/e2u1kyun">
+                    <Link href="https://app.websitepolicies.com/dsar/view/e2u1kyun">
                         Soumettre une demande d'accès aux données
-                    </a>
+                    </Link>
                 </p>
                 <p>
                     Si vous avez d'autres questions, préoccupations ou
@@ -922,13 +922,13 @@ export default function PrivacyPolicy() {
                     <br />
                     N° de TVA intracommunautaire : FR00 982 898 959
                     <br />
-                    <a href="&#109;&#097;&#105;&#108;&#116;&#111;&#058;inf&#111;&#64;b&#101;l&#97;z&#117;r&#99;&#111;d&#105;ng&#46;c&#111;&#109;">
+                    <Link href="&#109;&#097;&#105;&#108;&#116;&#111;&#058;inf&#111;&#64;b&#101;l&#97;z&#117;r&#99;&#111;d&#105;ng&#46;c&#111;&#109;">
                         &#105;nf&#111;&#64;&#98;&#101;laz&#117;&#114;c&#111;&#100;i&#110;g.&#99;om
-                    </a>
+                    </Link>
                     <br />
-                    <a href="https://belazurcoding.com/contact">
+                    <Link href="https://belazurcoding.com/contact">
                         https://belazurcoding.com/contact
-                    </a>
+                    </Link>
                 </p>
                 <p className="pt-4">
                     Nous tenterons de résoudre les réclamations et les

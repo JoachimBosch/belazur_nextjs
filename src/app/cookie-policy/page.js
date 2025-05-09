@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function CookiePolicy () {
     return (
         <div
@@ -10,77 +12,77 @@ export default function CookiePolicy () {
                     Cette politique relative aux cookies (“Politique”) décrit ce
                     que sont les cookies et comment ils sont utilisés par le
                     site web{" "}
-                    <a href="https://www.belazurcoding.com">
+                    <Link href="https://www.belazurcoding.com">
                         belazurcoding.com
-                    </a>{" "}
-                    (ci-après le “Site web” ou le “Service”) et par l'ensemble
+                    </Link>{" "}
+                    (ci-après le “Site web” ou le “Service”) et par l&apos;ensemble
                     de ses produits et services associés (collectivement les
                     “Services”). Cette Politique constitue un accord légalement
                     contraignant entre vous (l’“Utilisateur”, “vous” ou “votre”)
                     et Joachim Bosch Management (opérant sous le nom de “Bel’
                     Azur Coding”, “nous”, “notre” ou “nos”). Si vous acceptez
-                    cette Politique au nom d'une entreprise ou de toute autre
-                    entité juridique, vous déclarez que vous avez l'autorité
+                    cette Politique au nom d&apos;une entreprise ou de toute autre
+                    entité juridique, vous déclarez que vous avez l&apos;autorité
                     nécessaire pour lier ladite entité à cette Politique, auquel
                     cas les termes “Utilisateur”, “vous” ou “votre” désigneront
                     ladite entité. Si vous ne possédez pas une telle autorité,
-                    ou si vous n'acceptez pas les termes de cette Politique,
+                    ou si vous n&apos;acceptez pas les termes de cette Politique,
                     vous ne devez pas accepter cette Politique et ne pourrez pas
                     accéder ni utiliser le Site web et les Services. Nous vous
                     recommandons de lire attentivement cette Politique afin de
                     comprendre les types de cookies que nous utilisons, les
-                    informations collectées à l'aide des cookies, et la façon
+                    informations collectées à l&apos;aide des cookies, et la façon
                     dont ces informations sont utilisées. Cette Politique décrit
-                    également les options qui s'offrent à vous pour accepter ou
-                    refuser l'utilisation des cookies.
+                    également les options qui s&apos;offrent à vous pour accepter ou
+                    refuser l&apos;utilisation des cookies.
                 </p>
                 <div className="index">
                     <h3 className="pt-12">Table des matières</h3>
                     <ul className="index">
                         <li>
-                            <a href="#quest-ce-qduun-cookie">
-                                • Qu'est-ce qu'un cookie?
-                            </a>
+                            <Link href="#quest-ce-quun-cookie">
+                                • Qu&apos;est-ce qu&apos;un cookie?
+                            </Link>
                         </li>
                         <li>
-                            <a href="#quels-types-de-cookies-utilisons-nous">
+                            <Link href="#quels-types-de-cookies-utilisons-nous">
                                 • Quels types de cookies utilisons-nous?
-                            </a>
+                            </Link>
                         </li>
                         <li>
-                            <a href="#utilisons-nous-des-balises-web-ou-des-pixels-de-suivi">
+                            <Link href="#utilisons-nous-des-balises-web-ou-des-pixels-de-suivi">
                                 • Utilisons-nous des balises web ou des pixels
                                 de suivi ?
-                            </a>
+                            </Link>
                         </li>
                         <li>
-                            <a href="#quelles-sont-vos-options-en-mati%c3%a8re-de-cookies">
+                            <Link href="#quelles-sont-vos-options-en-mati%c3%a8re-de-cookies">
                                 • Quelles sont vos options en matière de cookies
                                 ?
-                            </a>
+                            </Link>
                         </li>
                         <li>
-                            <a href="#modifications-et-amendements">
+                            <Link href="#modifications-et-amendements">
                                 • Modifications et amendements
-                            </a>
+                            </Link>
                         </li>
                         <li>
-                            <a href="#acceptation-de-cette-politique">
+                            <Link href="#acceptation-de-cette-politique">
                                 • Acceptation de cette politique
-                            </a>
+                            </Link>
                         </li>
                         <li>
-                            <a href="#nous-contacter">• Nous contacter</a>
+                            <Link href="#nous-contacter">• Nous contacter</Link>
                         </li>
                     </ul>
                 </div>
                 <h2 id="quest-ce-quun-cookie" className="pt-12">
-                    Qu'est-ce qu'un cookie?
+                    Qu&apos;est-ce qu&apos;un cookie?
                 </h2>
                 <p>
                     Les cookies sont de petits fichiers de données stockés dans
                     des fichiers texte qui sont enregistrés sur votre ordinateur
-                    ou d'autres appareils lors du chargement de sites web dans
+                    ou d&apos;autres appareils lors du chargement de sites web dans
                     un navigateur. Ils sont largement utilisés pour se souvenir
                     de vous et de vos préférences, soit pour une seule visite
                     (avec un “cookie de session”), soit pour de multiples
@@ -104,7 +106,7 @@ export default function CookiePolicy () {
                     Les cookies peuvent être placés par le Site web (les
                     “cookies internes”), ou par des tiers, tels que ceux qui
                     fournissent du contenu ou des services de publicité ou
-                    d'analyse sur le Site web (les “cookies tiers”). Ces tiers
+                    d&apos;analyse sur le Site web (les “cookies tiers”). Ces tiers
                     peuvent vous reconnaître lorsque vous visitez notre site web
                     et également lorsque vous visitez certains autres sites web.
                 </p>
@@ -117,9 +119,9 @@ export default function CookiePolicy () {
                 <h3>Cookies indispensables</h3>
                 <p>
                     Les cookies indispensables nous permettent de vous offrir la
-                    meilleure expérience possible lors de l'accès et de la
+                    meilleure expérience possible lors de l&apos;accès et de la
                     navigation sur notre Site web ainsi que lors de
-                    l'utilisation de ses fonctionnalités. Par exemple, ces
+                    l&apos;utilisation de ses fonctionnalités. Par exemple, ces
                     cookies nous permettent de reconnaître que vous avez créé un
                     compte et vous êtes connecté à ce compte pour accéder au
                     contenu.
@@ -129,16 +131,16 @@ export default function CookiePolicy () {
                     Les cookies de fonctionnalité nous permettent de faire
                     fonctionner le site Web et les services conformément aux
                     choix que vous faites. Par exemple, nous reconnaîtrons votre
-                    nom d'utilisateur et nous souviendrons de la façon dont vous
+                    nom d&apos;utilisateur et nous souviendrons de la façon dont vous
                     avez personnalisé le site Web et les services lors de vos
                     visites ultérieures.
                 </p>
                 <h3>Cookies analytiques</h3>
                 <p>
-                    Ces cookies nous permettent, ainsi qu'à des services tiers,
+                    Ces cookies nous permettent, ainsi qu&apos;à des services tiers,
                     de collecter des données agrégées à des fins statistiques
                     sur la manière dont nos visiteurs utilisent le site Web. Ces
-                    cookies ne contiennent pas d'informations personnelles
+                    cookies ne contiennent pas d&apos;informations personnelles
                     telles que des noms et des adresses e-mail et sont utilisés
                     pour nous aider à améliorer votre expérience utilisateur du
                     site Web.
@@ -147,19 +149,19 @@ export default function CookiePolicy () {
                 <p>
                     Les cookies tiers des sites de médias sociaux (tels que
                     Facebook, Twitter, etc.) nous permettent de suivre les
-                    utilisateurs des réseaux sociaux lorsqu'ils visitent ou
+                    utilisateurs des réseaux sociaux lorsqu&apos;ils visitent ou
                     utilisent le site Web et les services, ou partagent du
                     contenu, en utilisant un mécanisme de balisage fourni par
                     ces réseaux sociaux.
                 </p>
                 <p>
                     Ces cookies sont également utilisés à des fins de suivi
-                    d'événements et de reciblage. Toutes les données collectées
+                    d&apos;événements et de reciblage. Toutes les données collectées
                     avec ces balises seront utilisées conformément à nos
                     politiques de confidentialité et à celles des réseaux
                     sociaux. Nous ne collecterons ni ne partagerons aucune
-                    information permettant d'identifier personnellement
-                    l'utilisateur.
+                    information permettant d&apos;identifier personnellement
+                    l&apos;utilisateur.
                 </p>
                 <h2
                     id="utilisons-nous-des-balises-web-ou-des-pixels-de-suivi"
@@ -171,19 +173,19 @@ export default function CookiePolicy () {
                     Nos e-mails peuvent contenir une "balise web" (ou "pixel de
                     suivi") pour nous indiquer si nos e-mails sont ouverts et
                     vérifier tout clic sur des liens ou des publicités dans
-                    l'e-mail.
+                    l&apos;e-mail.
                 </p>
                 <p>
                     Nous pouvons utiliser ces informations, entre autres, pour
                     déterminer quels de nos e-mails sont plus intéressants pour
                     les utilisateurs et pour vérifier si les utilisateurs qui
-                    n'ouvrent pas nos e-mails souhaitent continuer à les
+                    n&apos;ouvrent pas nos e-mails souhaitent continuer à les
                     recevoir.
                 </p>
                 <p>
-                    Le pixel sera supprimé lorsque vous supprimez l'e-mail. Si
+                    Le pixel sera supprimé lorsque vous supprimez l&apos;e-mail. Si
                     vous ne souhaitez pas que le pixel soit téléchargé sur votre
-                    appareil, vous devriez lire l'e-mail en mode texte brut ou
+                    appareil, vous devriez lire l&apos;e-mail en mode texte brut ou
                     avec les images désactivées.
                 </p>
                 <h2
@@ -193,14 +195,14 @@ export default function CookiePolicy () {
                     Quelles sont vos options en matière de cookies ?
                 </h2>
                 <p>
-                    Si vous n'êtes pas favorable à l'idée des cookies ou à
+                    Si vous n&apos;êtes pas favorable à l&apos;idée des cookies ou à
                     certains types de cookies, vous pouvez modifier les
                     paramètres de votre navigateur pour supprimer les cookies
                     déjà définis et pour ne pas accepter de nouveaux cookies.
                     Visitez{" "}
-                    <a href="https://www.internetcookies.com">
+                    <Link href="https://www.internetcookies.com">
                         internetcookies.com
-                    </a>{" "}
+                    </Link>{" "}
                     pour en savoir plus sur la marche à suivre.
                 </p>
 
@@ -219,8 +221,8 @@ export default function CookiePolicy () {
                 <p>
                     Une version mise à jour de cette Politique sera effective
                     immédiatement après la publication de la Politique révisée à
-                    moins d'indication contraire. Votre utilisation continue du
-                    Site Web et des Services après la date d'entrée en vigueur
+                    moins d&apos;indication contraire. Votre utilisation continue du
+                    Site Web et des Services après la date d&apos;entrée en vigueur
                     de la Politique révisée (ou tout autre acte spécifié à ce
                     moment-là) constituera votre consentement à ces changements.
                 </p>
@@ -230,9 +232,9 @@ export default function CookiePolicy () {
                 <p>
                     Vous reconnaissez avoir lu cette Politique et acceptez tous
                     ses termes et conditions. En accédant et en utilisant le
-                    Site Web et les Services, vous acceptez d'être lié par cette
-                    Politique. Si vous n'acceptez pas de respecter les termes de
-                    cette Politique, vous n'êtes pas autorisé à accéder ou à
+                    Site Web et les Services, vous acceptez d&apos;être lié par cette
+                    Politique. Si vous n&apos;acceptez pas de respecter les termes de
+                    cette Politique, vous n&apos;êtes pas autorisé à accéder ou à
                     utiliser le Site Web et les Services.
                 </p>
                 <h2 id="nous-contacter" className="pt-12">
@@ -240,7 +242,7 @@ export default function CookiePolicy () {
                 </h2>
                 <p>
                     Si vous avez des questions, des préoccupations ou des
-                    plaintes concernant cette Politique ou l'utilisation des
+                    plaintes concernant cette Politique ou l&apos;utilisation des
                     cookies, nous vous encourageons à nous contacter aux
                     coordonnées ci-dessous :
                 </p>
@@ -255,13 +257,13 @@ export default function CookiePolicy () {
                     <br />
                     N° de TVA intracommunautaire : FR00 982 898 959
                     <br />
-                    <a href="&#109;&#097;&#105;&#108;&#116;&#111;&#058;inf&#111;&#64;b&#101;l&#97;z&#117;r&#99;&#111;d&#105;ng&#46;c&#111;&#109;">
+                    <Link href="&#109;&#097;&#105;&#108;&#116;&#111;&#058;inf&#111;&#64;b&#101;l&#97;z&#117;r&#99;&#111;d&#105;ng&#46;c&#111;&#109;">
                         &#105;nf&#111;&#64;&#98;&#101;laz&#117;&#114;c&#111;&#100;i&#110;g.&#99;om
-                    </a>
+                    </Link>
                     <br />
-                    <a href="https://belazurcoding.com/contact">
+                    <Link href="https://belazurcoding.com/contact">
                         https://belazurcoding.com/contact
-                    </a>
+                    </Link>
                 </p>
                 <p className="pt-4">
                     Ce document a été mis à jour pour la dernière fois le 10

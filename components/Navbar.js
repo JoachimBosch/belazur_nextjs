@@ -43,15 +43,15 @@ export default function Navbar() {
                 {/* Logo */}
 
                 <div className="logo flex items-center">
-                    <a href="/" className="-m-1.5 p-1.5">
-                        <span className="sr-only">Bel'Azur Coding</span>
+                    <Link href="/" className="-m-1.5 p-1.5">
+                        <span className="sr-only">Bel&apos;Azur Coding</span>
 
                         <Image
                             src={Azur}
-                            alt="Bel'Azur Coding Logo"
+                            alt="Bel&apos;Azur Coding Logo"
                             className="h-24 w-auto"
                         />
-                    </a>
+                    </Link>
                 </div>
 
                 {/* Menu */}
@@ -64,7 +64,7 @@ export default function Navbar() {
                         >
                             <Image
                                 src={MENU}
-                                alt="Bel'Azur Coding MENU image"
+                                alt="Bel&apos;Azur Coding MENU image"
                                 className="menu"
                                 style={{
                                     width: `${logoWidth}`,
