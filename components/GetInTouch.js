@@ -1,5 +1,5 @@
-"use client"
-
+"use client";
+import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
 import Link from "next/link";
@@ -13,7 +13,7 @@ export default function GetInTouch() {
         <>
             <div className="text-center">
                 <Link href="tel:+33626838554">
-                    <button class="button-home bg-white text-belazurblue font-semibold hover:text-belazurblue py-2 px-4 border-none border-blue-500 hover:border-transparent rounded">
+                    <button className="button-home bg-white text-belazurblue font-semibold hover:text-belazurblue py-2 px-4 border-none border-blue-500 hover:border-transparent rounded">
                         <FontAwesomeIcon icon={faPhone} />{" "}
                         {text[language].getInTouch}
                     </button>

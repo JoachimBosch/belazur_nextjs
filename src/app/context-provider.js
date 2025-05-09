@@ -1,5 +1,6 @@
 "use client";
 
+import React from "react";
 import { createContext, useEffect, useState } from "react";
 
 const MyContext = createContext();
@@ -908,6 +909,7 @@ const _MOBILEtext = {
     },
 };
 
+// eslint-disable-next-line react/prop-types
 export const MyProvider = ({ children }) => {
     const [language, setLanguage] = useState(() => {
         if (typeof window !== "undefined") {

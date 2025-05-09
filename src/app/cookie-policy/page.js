@@ -1,3 +1,4 @@
+import React from "react";
 import Link from "next/link";
 
 export default function CookiePolicy () {
@@ -170,8 +171,8 @@ export default function CookiePolicy () {
                     Utilisons-nous des balises web ou des pixels de suivi ?
                 </h2>
                 <p>
-                    Nos e-mails peuvent contenir une "balise web" (ou "pixel de
-                    suivi") pour nous indiquer si nos e-mails sont ouverts et
+                    Nos e-mails peuvent contenir une &quot;balise web&quot; (ou &quot;pixel de
+                    suivi&quot;) pour nous indiquer si nos e-mails sont ouverts et
                     vérifier tout clic sur des liens ou des publicités dans
                     l&apos;e-mail.
                 </p>

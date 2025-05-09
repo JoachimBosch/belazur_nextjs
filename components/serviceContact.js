@@ -1,5 +1,5 @@
 "use client"
-
+import React from "react";
 import Link from "next/link";
 import { useContext } from "react";
 import MyContext from "@/app/context-provider";
@@ -10,7 +10,7 @@ export default function ServiceContact() {
         <>
             <div className="text-center">
                 <Link href="/contact">
-                    <button class="button-services rounded">
+                    <button className="button-services rounded">
                         {text[language].mailUs}
                     </button>
                 </Link>

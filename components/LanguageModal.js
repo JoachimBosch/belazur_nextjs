@@ -1,5 +1,5 @@
-"use client"
-
+"use client";
+import React from "react";
 import { useEffect, useContext, useState } from "react";
 import MyContext from "@/app/context-provider";
 import Image from "next/image";
